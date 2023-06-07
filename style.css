@@ -45,7 +45,8 @@ nav ul li {
 /* Header */
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin: 30px auto;
 }
 
@@ -75,4 +76,52 @@ h1{
 /* Section Infos */
 .infos {
     display: flex;
+    background: rgb(10, 10, 10);
+    border-radius: 10px;
+}
+
+/* Section Infos Left */
+/* Il va prendre une width de 33% de son parent qui est à 100% et qui est en block */
+.infos-left {
+    width: 33%;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button {
+    border: none;
+    background: #474dff;
+    color: white;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+/* Section Infos Right */
+.infos-right {
+    width: 67%;
+}
+
+.investors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img-container img {
+    height: 60px;
 }
