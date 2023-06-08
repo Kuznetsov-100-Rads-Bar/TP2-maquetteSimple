@@ -39,7 +39,7 @@ nav ul {
 }
 
 /* Header */
-header {
+.header {
     display: flex;
     justify-content: space-around;
     margin: 30px auto;
